@@ -1,0 +1,33 @@
+{
+  "name": "azure-arm-communication-samples-js",
+  "version": "0.1.0",
+  "description": "Azure Communication Service Management library samples for JavaScript",
+  "engine": {
+    "node": ">=8.0.0"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azure/azure-sdk-for-js.git"
+  },
+  "keywords": [
+    "Azure",
+    "Communication",
+    "Node.js",
+    "JavaScript"
+  ],
+  "author": "Microsoft Corporation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azure/azure-sdk-for-js/issues"
+  },
+  "homepage": "https://github.com/Azure/azure-sdk-for-js/tree/master/sdk/communication/arm-communication",
+  "sideEffects": false,
+  "dependencies": {
+    "@azure/arm-communication": "file:../../../../../../lib/javascript/azure-arm-communication-1.1.0/azure-arm-communication-2.0.0.tgz",
+    "@azure/arm-notificationhubs": "^1.2.0",
+    "@azure/arm-resources": "^4.0.0",
+    "@azure/identity": "^1.2.3",
+    "dotenv": "^8.2.0"
+  }
+}

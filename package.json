@@ -62,6 +62,7 @@
     "node": ">=10.10.0"
   },
   "dependencies": {
+    "@azure/arm-communication": "file:../lib/javascript/azure-arm-communication-1.1.0/azure-arm-communication-1.1.0.tgz",
     "versioning": "file:eng/tools/versioning"
   }
 }
